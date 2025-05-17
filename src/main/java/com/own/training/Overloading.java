@@ -1,6 +1,4 @@
-package com.chatGPT.training;
-
-import java.util.Scanner;
+package com.own.training;
 
 class Printer{
     String print(String str){

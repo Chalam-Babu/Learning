@@ -1,4 +1,4 @@
-package com.chatGPT.training.intterfaceandPolymorpisam;
+package com.own.training.intterfaceandPolymorpisam;
 
 public class Drum implements Playable{
     @Override

@@ -1,4 +1,4 @@
-package com.chatGPT.training;
+package com.own.training;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.chatGPT.training.intterfaceandPolymorpisam;
+package com.own.training.intterfaceandPolymorpisam;
 
 import java.util.Scanner;
 
@@ -11,8 +11,8 @@ public class Main {
         if(name.equals("drums")){
             p = new Drum();
 
-        } else if (name.equals("guitar")) {
-            p = new Guitar();
+        } else if (name.equals("violin")) {
+            p = new violin();
 
 
         }else {

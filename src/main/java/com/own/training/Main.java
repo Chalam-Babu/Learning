@@ -1,6 +1,5 @@
-package com.chatGPT.training;
+package com.own.training;
 
-import javax.swing.plaf.synth.SynthLookAndFeel;
 import java.util.Scanner;
 
 interface Playable{
