@@ -32,4 +32,18 @@ public class CalculatorTest {
         int res = cj.divide(4, 2);
         assertEquals(2, res);
     }
+
+    @Test
+    public void subtractTest(){
+        int res = cj.sub(10, 5);
+        assertEquals(5, res);
+    }
+    @Test
+    public void divideByZeroTest(){
+        assertThrows(IllegalArgumentException.class, () -> cj.divide(10, 0));
+    }
+
+
+
+
 }
