@@ -40,13 +40,18 @@ public class CalculatorTest {
     }
     @Test
     public void divideByZeroTest(){
-        assertThrows(ArithmeticException.class, () -> cj.divide(10, 0));
+        assertThrows(IllegalArgumentException.class, () -> cj.divide(10, 0));
     }
 
     @Test
     public void multiplyTest(){
         int res = cj.multiply(-3, 4);
         assertEquals(-12, res);
+    }
+    @Test
+    public void maxTest(){
+        int res  = cj.maximum(5, 7);
+        assertEquals(res, 7);
     }
 
 
